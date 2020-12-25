@@ -1,0 +1,115 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  background: #181a1b;
+  color: #e8e6e3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.content > p:last-of-type {
+  display: inline;
+}
+
+.tagline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blinking-cursor {
+  color: #e8e6e3;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #e8e6e3;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #e8e6e3;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #e8e6e3;
+  }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #e8e6e3;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #e8e6e3;
+  }
+}
+
+.react-logo, .javascript-logo {
+  display: inline;
+  height: 1.5em;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .react-logo {
+    animation: react-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes react-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
