@@ -1,3 +1,8 @@
+---
+title: 'Intro'
+date: '2020-01-01'
+---
+
 here lies meditations of a web developer trying to live a life
 of learning, teaching, and building tech solutions
 with JavaScript, React, and all things UI/UX until he
